@@ -11,7 +11,7 @@ function sortArray(values: (string | number | boolean)[], orderType: SortTypes) 
       order = 0;
     }
 
-    return orderType === 'desc' ? order : -order;
+    return orderType === 'asc' ? order : -order;
   });
 }
 
@@ -30,7 +30,7 @@ function sortArrayOfObjects<T extends object, K extends keyof T>(
       order = 0;
     }
 
-    return orderType === 'desc' ? order : -order;
+    return orderType === 'asc' ? order : -order;
   });
 }
 
