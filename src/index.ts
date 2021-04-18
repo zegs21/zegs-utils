@@ -1,3 +1,1 @@
-const str = 'dsf';
-
-export { str };
+export { sortArray, sortArrayOfObjects } from './sorting';
