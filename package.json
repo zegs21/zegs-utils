@@ -1,6 +1,6 @@
 {
   "name": "zegs-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "zegs' utils library",
   "main": "./dist/index.js",
   "scripts": {
