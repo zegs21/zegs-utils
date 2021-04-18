@@ -2,12 +2,13 @@
   "compilerOptions": {
     "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "module": "ESNext",
+    "noEmitOnError": true,
     "noImplicitAny": true,
     "outDir": "./dist",
     "removeComments": true,
     "strict": true,
-    "target": "es2018"
+    "target": "ESNext"
   },
   "include": ["src"]
 }
