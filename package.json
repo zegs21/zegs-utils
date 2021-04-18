@@ -1,0 +1,39 @@
+{
+  "name": "zegs-utils",
+  "version": "1.0.0",
+  "description": "zegs' utils library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "lint": "eslint \"src/**/*.{,js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{,js,jsx,ts,tsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zegs21/zegs-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "javascript",
+    "typescript",
+    "react",
+    "hooks"
+  ],
+  "author": "Zegs21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zegs21/zegs-utils/issues"
+  },
+  "homepage": "https://github.com/zegs21/zegs-utils#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
