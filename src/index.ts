@@ -1,1 +1,1 @@
-export { sortArray, sortArrayOfObjects } from './sorting';
+export { sortArray, sortArrayOfObjects, SortTypes } from './sorting';
